@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\csomo\\RiderProjects\\LibraryApp\\LibraryApp.Shared\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryApp.Shared.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LibraryApp.Shared.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\csomo\\RiderProjects\\LibraryApp\\LibraryApp.Shared\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\csomo\\RiderProjects\\LibraryApp\\LibraryApp.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\csomo\\RiderProjects\\LibraryApp\\LibraryApp.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\csomo\\RiderProjects\\LibraryApp\\LibraryApp.Shared\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryApp.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryApp.Shared.props",
+      "PackagePath": "build\\LibraryApp.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryApp.Shared.props",
+      "PackagePath": "buildMultiTargeting\\LibraryApp.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryApp.Shared.props",
+      "PackagePath": "buildTransitive\\LibraryApp.Shared.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
