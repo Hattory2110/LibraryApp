@@ -9,10 +9,10 @@ public class Olvaso
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public Guid OSz { get; set; }
 
-    [Required]
+    [Required] 
     public string Name { get; set; }
 
-    [Required]
+    [Required] 
     public string Address { get; set; }
 
     [Range(typeof(DateOnly), "1900-01-01", "2000-12-31")]

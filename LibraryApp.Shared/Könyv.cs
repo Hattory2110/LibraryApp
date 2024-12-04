@@ -16,8 +16,8 @@ public class Könyv
     public string Writer { get; set; }
 
     [Required]
-    public string Publisher { get; set; }    
-    
+    public string Publisher { get; set; }
+
     [Required]
     [Range(typeof(int), "0", "2024")]
     public int Date { get; set; }

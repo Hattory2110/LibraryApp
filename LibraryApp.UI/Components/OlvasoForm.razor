@@ -1,0 +1,37 @@
+﻿@using LibraryApp.Shared
+<EditForm Model="Olvaso" OnValidSubmit="() => OnValidSubmit()">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <InputText @bind-Value="Olvaso.Name" class="form-control" />
+        <ValidationMessage For="() => Olvaso.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <InputText @bind-Value="Olvaso.Address" class="form-control" />
+        <ValidationMessage For="() => Olvaso.Address" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Birth date</label>
+        <InputDate @bind-Value="Olvaso.BirthDate" class="form-control" />
+        <ValidationMessage For="() => Olvaso.BirthDate" />
+    </div>
+
+    <button class="btn btn-primary form-control" type="submit">@ButtonText</button>
+</EditForm>
+
+@code {
+    
+    [Parameter]
+    public Olvaso Olvaso { get; set; }
+    
+    [Parameter]
+    public Func<Task> OnValidSubmit { get; set; }
+    
+    [Parameter]
+    public string ButtonText { get; set; }
+
+}
